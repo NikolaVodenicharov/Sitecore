@@ -1,0 +1,121 @@
+.row {
+    margin-right: calc(var(--bs-gutter-x) * -.6);
+    margin-left: calc(var(--bs-gutter-x) * -.6);
+  }
+  
+  .row > * {
+    position: relative;
+    padding-right: calc(var(--bs-gutter-x) * .6);
+    padding-left: calc(var(--bs-gutter-x) * .6);
+  }
+  
+  .col-lg-4 {
+    flex: 0 0 auto;
+    width: 33.3333%;
+  }
+  
+  .col-md-6 {
+    flex: 0 0 auto;
+    width: 50%;
+  }
+  
+  .single-event-item {
+    box-shadow: 0 0 8px rgba(34, 30, 31, 0.3);
+  }
+  
+  .event-style-2 .single-event-image a > span {
+    background: #1F3971;
+    top: 130px;
+    color: #ffffff;
+    font-size: 24px;
+    left: 34px;
+    right: auto;
+    line-height: 18px;
+    position: absolute;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 50px 0 0 50px;
+    text-align: center;
+    padding: 15px 20px;
+    transform: rotate(-90deg);
+    transform-origin: left top;
+    width: 130px;
+  }
+  
+  .single-event-text {
+    background: #f6f6f6;
+    padding: 50px 34px 35px;
+    text-align: center;
+  }
+  
+  .single-event-text > h3 {
+    margin-bottom: 15px;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1;
+    color: #4c4c4c;
+  }
+  
+  .single-event-text > h3 a:hover {
+    color: #F4A012;
+  }
+  
+  .single-item-comment-view {
+    margin-bottom: 12px;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    margin-top: 10px;
+    display: block;
+    padding: 5px 0;
+  }
+  
+  .single-item-comment-view span {
+    margin-right: 12px;
+  }
+  
+  .single-item-comment-view span:last-child {
+    margin-right: 0;
+  }
+  
+  .button-default {
+    background: #1F3971;
+    color: #ffffff;
+    display: inline-block;
+    font-size: 14px;
+    padding: 15px 35px;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .button-default:hover {
+    background-color: #FFAE27;
+    color: #fff;
+  }
+  
+  .event-area {
+    padding: 100px 0;
+  }
+  
+  .bg-white {
+    background-color: #fff;
+  }
+  
+  .section-padding {
+    padding: 100px 0;
+  }
+  
+  .section-title {
+    text-align: left;
+    position: relative;
+  }
+  
+  .section-title h3 {
+    color: #2d3e50;
+    font-size: 30px;
+    line-height: 30px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    font-weight: 700;
+  }
+  

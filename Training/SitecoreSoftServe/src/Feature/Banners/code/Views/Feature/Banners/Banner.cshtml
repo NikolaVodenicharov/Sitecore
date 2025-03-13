@@ -1,0 +1,24 @@
+﻿@using Sitecore.Mvc
+@using Sitecore.Mvc.Presentation
+@using SitecoreSoftServe.Foundation.Extensions.FieldRendering;
+@using SitecoreSoftServe.Feature.Banners;
+@using Sitecore.Resources.Media;
+
+@model RenderingModel
+
+
+@if (Model != null && Model.PageItem != null)
+{
+    <div>
+        <h2>
+            @Html.Sitecore().Field(Templates.Banner.Title.ToString(), Model.Item)
+        </h2>
+
+        <div>
+            @Html.Sitecore().Field(Templates.Banner.Text.ToString(), Model.Item, new { @class = "editable-text" })
+        </div>
+        <div class="slider-btn">
+            @Html.Sitecore().Field(Templates.Banner.Link.ToString(), Model.Item, new { @class = "button-default" })
+        </div>
+    </div>
+}

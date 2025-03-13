@@ -1,0 +1,13 @@
+﻿@using SitecoreSoftServe.Feature.Navigations.Common
+@using SitecoreSoftServe.Feature.Navigations.Models.FooterModels
+
+@model MainFooterInstagramModel
+
+<div class="col-lg-3 col-md-6">
+    <div class="single-footer-widget">
+        <h3>
+            @Html.Sitecore().Field(FooterTemplates.Instagram.Title.ToString(), Model.Item)
+        </h3>
+        <ul id="Instafeed"></ul>
+    </div>
+</div>

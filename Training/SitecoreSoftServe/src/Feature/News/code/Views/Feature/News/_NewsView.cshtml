@@ -1,0 +1,26 @@
+﻿@using SitecoreSoftServe.Feature.News
+@using SitecoreSoftServe.Feature.News.Models
+@using Sitecore.Globalization
+
+@model NewsModel
+
+<div class="col-lg-4 col-md-6 col-12">
+    <div class="single-latest-item">
+        <div class="single-latest-image">
+            <a href="@Model.LinkUrl">
+                <img src="@Model.ImageUrl" alt="">
+            </a>
+        </div>
+        <div class="single-latest-text">
+            <h3><a href="@Model.LinkUrl">@Model.Title</a></h3>
+            <div class="single-item-comment-view">
+                <span><i class="zmdi zmdi-calendar-check"></i>@Model.Date.ToString("hh:mm tt")</span>
+                <span><i class="zmdi zmdi-eye"></i>@Model.ViewsCount</span>
+                <span><i class="zmdi zmdi-comments"></i>@Model.CommentsCount</span>
+            </div>
+            @Html.Raw(Model.Description)
+            @*<a class="button-default" href="@Model.LinkUrl">@Model.LinkName</a>*@
+            <a class="button-default" href="@Model.LinkUrl">@Translate.Text("NewsCallToActionButton")</a>
+        </div>
+    </div>
+</div>

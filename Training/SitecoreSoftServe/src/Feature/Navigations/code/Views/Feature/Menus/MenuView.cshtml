@@ -1,0 +1,66 @@
+﻿@using Sitecore.Mvc
+@using SitecoreSoftServe.Feature.Navigations.Models;
+@using SitecoreSoftServe.Feature.Navigations.Common;
+
+@model Menu
+
+@*<div class="header-logo-menu sticker">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 col-12">
+                <div class="mainmenu d-none d-lg-block">
+                    <nav>
+                        @RenderMenu(Model.Children, 1)
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>*@
+
+
+
+<div class="header-logo-menu sticker">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3 col-12">
+                <div class="logo">
+                    @Html.Sitecore().Field(MenuTemplates.Menu.Icon.ToString(), Model.Item)
+                </div>
+            </div>
+            <div class="col-lg-9 col-12">
+                <div class="mainmenu d-none d-lg-block">
+                    <nav>
+                        @RenderMenu(Model.Children, 1)
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+@helper RenderMenu(List<NavigationItem> items, int level)
+{
+    string cssClass = level == 1 ? "menu"
+        : level == 2 ? "sub-menu"
+        : "inside-menu";
+
+    <ul id="nav" class="@cssClass">
+        @foreach (NavigationItem item in items)
+        {
+            <li class="@(item.IsActive ? "active" : "")">
+                <a href="@item.Url">@item.Title</a>
+                @if (item.Children != null && item.Children.Any() && level < 3)
+                {
+                    @RenderMenu(item.Children, level + 1)
+                }
+            </li>
+        }
+    </ul>
+}
+
+
+<style>
+    @("@media (max-width: 768px) { .mainmenu { display: none; } }")
+</style>

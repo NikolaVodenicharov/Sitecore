@@ -1,0 +1,104 @@
+﻿---
+ID: "008e1a68-96e9-469e-9e8e-5046826e0ce6"
+Parent: "7dc508f2-ea30-44c7-9583-504930c6b094"
+Template: "7dc508f2-ea30-44c7-9583-504930c6b094"
+Path: /sitecore/templates/Project/AcademyMvc/Events/Event Page Mvc/__Standard Values
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: business/32x32/calendar.png
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: "{7DC508F2-EA30-44C7-9583-504930C6B094}"
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
+        l="{CEEEED93-1002-469C-A200-4DEA85F9C84E}">
+        <r
+          ds="{89EAA642-CADB-4722-936F-644A684CD33F}"
+          id="{184967C7-9770-455B-8D39-4633D3CF9C71}"
+          par="CSSStyles"
+          ph="/footer-mvc-{00000000-0000-0000-0000-000000000000}-0/main-footer-placeholder-4-{00FA7485-ED6D-4B07-AB15-41408C2D1AC9}-0"
+          uid="{2454B0D5-2201-4D24-AACB-17D7105F9A16}"
+          ccb="Clear on publish" />
+        <r
+          ds="{43BD08FE-B421-417A-9880-98122A814974}"
+          id="{AF507F7A-5280-4791-85D4-E0385AB3FE6E}"
+          par="CSSStyles"
+          ph="/footer-mvc-{00000000-0000-0000-0000-000000000000}-0/main-footer-placeholder-3-{00FA7485-ED6D-4B07-AB15-41408C2D1AC9}-0"
+          uid="{53E5AF40-FF59-40A2-A857-E7B1F9F84C7C}"
+          ccb="Clear on publish" />
+        <r
+          ds="{CA50F625-C74F-4A12-AD48-C7FA839B8F9C}"
+          id="{ECF49E9D-94D9-494D-BDCA-03E4CDAE951B}"
+          par="CSSStyles"
+          ph="/footer-mvc-{00000000-0000-0000-0000-000000000000}-0/main-footer-placeholder-2-{00FA7485-ED6D-4B07-AB15-41408C2D1AC9}-0"
+          uid="{6AFBC06C-9A1F-4162-95EA-2CC4F60FB98A}"
+          ccb="Clear on publish" />
+        <r
+          ds="{E38C4680-0DB0-457A-BC3A-F0C55FAA5504}"
+          id="{0086C947-C45B-4DFF-AA47-13E86A9B07DE}"
+          par="CSSStyles"
+          ph="/footer-mvc-{00000000-0000-0000-0000-000000000000}-0/main-footer-placeholder-1-{00FA7485-ED6D-4B07-AB15-41408C2D1AC9}-0"
+          uid="{F931D5BD-3248-4145-887E-C1366F05CFDF}"
+          ccb="Clear on publish" />
+        <r
+          ds="{9CC38331-E8C4-43FD-B3B2-C7744E9FD008}"
+          id="{564727B0-2A6B-46E0-BF27-43B78823F15B}"
+          par="CSSStyles"
+          ph="footer-mvc-{00000000-0000-0000-0000-000000000000}-0"
+          uid="{06BB5547-7117-4897-ADA1-3D4BA4DFE9DF}"
+          ccb="Clear on publish" />
+        <r
+          id="{3EE5E1DB-2B4E-4FA1-8868-AC62018D4451}"
+          par="CacheClearingBehavior=Clear on publish&amp;CSSStyles"
+          ph="footer-mvc-{00000000-0000-0000-0000-000000000000}-0"
+          uid="{00FA7485-ED6D-4B07-AB15-41408C2D1AC9}" />
+        <r
+          ds="{B88731A7-55D0-4011-9930-5C07CD2176F4}"
+          id="{6EB34629-EA81-467E-9663-6D03233F03A7}"
+          par="CSSStyles"
+          ph="footer-mvc-{00000000-0000-0000-0000-000000000000}-0"
+          uid="{F96676DA-48CC-47CF-8F8F-9B9CFD472FDF}"
+          ccb="Clear on publish" />
+        <r
+          ds="{5ECE7950-8DB2-45C6-94FC-A61BCB060588}"
+          id="{7C506FF2-48CC-44A5-8C8D-B93FDB59BAA5}"
+          par="CSSStyles"
+          ph="header-mvc-{00000000-0000-0000-0000-000000000000}-0"
+          uid="{42B96DB6-4FE9-4E3D-A1B7-FEC2E0BEFC1A}"
+          ccb="Clear on publish" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250221T102951Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "b6148232-dbbf-4c04-9c21-791dc32c90f0"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250301T183634Z

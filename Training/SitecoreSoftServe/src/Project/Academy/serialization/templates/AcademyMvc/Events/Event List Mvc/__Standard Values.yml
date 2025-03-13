@@ -1,0 +1,41 @@
+﻿---
+ID: "2d9d1171-6fd8-42d7-9ada-0c11622a064d"
+Parent: "caed6a64-3a46-449e-911a-bf34daf096e2"
+Template: "caed6a64-3a46-449e-911a-bf34daf096e2"
+Path: /sitecore/templates/Project/AcademyMvc/Events/Event List Mvc/__Standard Values
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: businessv2/32x32/date_time.png
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250221T104115Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "6df5fb60-5ab7-4785-942b-296791eb5043"
+      Hint: eventListTitle
+      Value: OUR EVENTS
+    - ID: "7687cd50-af87-4757-86c5-d078b962b8bd"
+      Hint: eventListDescription
+      Value: There are many variations of passages
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "b26f13de-1d90-4c2f-9b59-75b056a94c93"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250301T182426Z

@@ -1,0 +1,41 @@
+﻿---
+ID: "bac1bb70-a104-4771-88da-257a961e5b36"
+Parent: "eda1e197-d476-45e8-81a5-cff1b32e2a5d"
+Template: "eda1e197-d476-45e8-81a5-cff1b32e2a5d"
+Path: /sitecore/templates/Project/AcademyMvc/Content/Fun Factors/Fun Factor Mvc/__Standard Values
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: wordprocessing/32x32/header_h.png
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250215T120933Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "53b900ac-ac7d-4692-abec-abfef5dda5d3"
+      Hint: funFactorNumber
+      Value: 1
+    - ID: "5d2a568e-1a50-4b30-903c-94ff49f32a08"
+      Hint: funFactorTitle
+      Value: Members
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "fc657f0a-996e-4e81-be72-e1ec871677c9"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250215T162046Z

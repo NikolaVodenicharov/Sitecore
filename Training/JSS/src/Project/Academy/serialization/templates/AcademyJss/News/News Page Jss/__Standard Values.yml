@@ -1,0 +1,46 @@
+﻿---
+ID: "3a6c5701-83d2-4c0b-a8a8-c0308bc41906"
+Parent: "f9ecbb0f-67f2-4271-b347-bde1fafd2777"
+Template: "f9ecbb0f-67f2-4271-b347-bde1fafd2777"
+Path: /sitecore/templates/Project/AcademyJss/News/News Page Jss/__Standard Values
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "01bf4d6d-b6b5-4061-83fa-84a1e904b22f"
+      Hint: newsTitle
+      Value: Breaking news
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250226T111658Z
+    - ID: "3f60afb7-b2c7-48e9-b1ff-9ee4554c8047"
+      Hint: newsViews
+      Value: 125
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "73ee15c3-ee96-4598-b113-cd0924aba896"
+      Hint: newsDescription
+      Value: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr.
+    - ID: "77d423e3-dd49-446a-be2d-a0159ca74f76"
+      Hint: newsDate
+      Value: 20250326T193000Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "c0bb58ea-1117-4b31-9156-97cd946ecbb0"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "cedacb2f-a0ed-4cb9-ab8e-ef0ebdee3807"
+      Hint: newsComments
+      Value: 64
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250226T111823Z

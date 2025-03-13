@@ -1,0 +1,38 @@
+﻿---
+ID: "961609bc-f2bd-450f-bc10-42f6a19613aa"
+Parent: "079b18db-071f-4df7-92f9-0c67425fb611"
+Template: "079b18db-071f-4df7-92f9-0c67425fb611"
+Path: /sitecore/templates/Project/AcademyJss/Navigations/Footers/Useful Links Footer Jss/__Standard Values
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: "{9EBCEDF0-FDEF-45DC-A274-2F01E95FF644}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1f97c641-c72a-4ec9-87ae-33f611531afe"
+      Hint: title
+      Value: Useful Links
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250301T110618Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "76fee6a2-8e2b-4883-a52e-69e464c45b4e"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250301T121810Z

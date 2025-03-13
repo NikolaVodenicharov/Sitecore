@@ -1,0 +1,46 @@
+﻿{
+  "namespace": "Feature.Content",
+  "references": [ "Foundation.*" ],
+  "items": {
+    "includes": [
+      {
+        "name": "placeholder-settings",
+        "path": "/sitecore/layout/Placeholder Settings/Feature/Content Mvc"
+      },
+      {
+        "name": "renderings-abouts",
+        "path": "/sitecore/layout/Renderings/Feature/Content Mvc/Abouts"
+      },
+      {
+        "name": "renderings-testimonials",
+        "path": "/sitecore/layout/Renderings/Feature/Content Mvc/Testimonials"
+      },
+      {
+        "name": "renderings-fun-factors",
+        "path": "/sitecore/layout/Renderings/Feature/Content Mvc/Fun Factors"
+      },
+      {
+        "name": "templates-abouts",
+        "path": "/sitecore/templates/Feature/Content/Abouts"
+      },
+      {
+        "name": "templates-testimonials",
+        "path": "/sitecore/templates/Feature/Content/Testimonials"
+      },
+      {
+        "name": "templates-fun-factors",
+        "path": "/sitecore/templates/Feature/Content/Fun Factors"
+      },
+      {
+        "name": "buttons-abouts",
+        "path": "/sitecore/content/Applications/WebEdit/Custom Experience Buttons/Feature/Abouts",
+        "database": "core"
+      },
+      {
+        "name": "buttons-testimonials",
+        "path": "/sitecore/content/Applications/WebEdit/Custom Experience Buttons/Feature/Testimonials",
+        "database": "core"
+      }
+    ]
+  }
+}

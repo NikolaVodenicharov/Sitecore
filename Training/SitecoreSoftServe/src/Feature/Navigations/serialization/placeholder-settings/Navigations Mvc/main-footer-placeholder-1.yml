@@ -1,0 +1,42 @@
+﻿---
+ID: "cd83ae1f-c473-40ff-aded-60e697360430"
+Parent: "23567401-698d-406f-a676-008f210990c6"
+Template: "5c547d4e-7111-4995-95b0-6b561751bf2e"
+Path: "/sitecore/layout/Placeholder Settings/Feature/Navigations Mvc/main-footer-placeholder-1"
+SharedFields:
+- ID: "7256bdab-1fd2-49dd-b205-cb4873d2917c"
+  Hint: Placeholder Key
+  Value: "main-footer-placeholder-1"
+- ID: "e391b526-d0c5-439d-803e-17512eae6222"
+  Hint: Allowed Controls
+  Value: |
+    {ECF49E9D-94D9-494D-BDCA-03E4CDAE951B}
+    {184967C7-9770-455B-8D39-4633D3CF9C71}
+    {0086C947-C45B-4DFF-AA47-13E86A9B07DE}
+    {AF507F7A-5280-4791-85D4-E0385AB3FE6E}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250227T112259Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "c1f938b2-8dd9-40d7-8492-80fef5fdb6fe"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250227T122018Z

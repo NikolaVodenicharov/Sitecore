@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35527.113
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Feature", "Feature", "{2B1BC4E0-D52D-4D71-AC58-F71B9A4E5EE9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Foundation", "Foundation", "{6B76030C-BBBF-44DC-9F6D-3BF67BE4E4D7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Project", "Project", "{A6BA216D-B69D-4F4E-814B-EA0C775B440D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AcademyJss", "AcademyJss", "{E0A7A5F7-0843-4D4D-BD96-F645EE46D126}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SoftServe.AcademyJss.Project.Website", "src\Project\AcademyJss\code\SoftServe.AcademyJss.Project.Website.csproj", "{26903BCA-C71B-4560-AC4D-946E1A3AD238}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{26903BCA-C71B-4560-AC4D-946E1A3AD238}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26903BCA-C71B-4560-AC4D-946E1A3AD238}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26903BCA-C71B-4560-AC4D-946E1A3AD238}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26903BCA-C71B-4560-AC4D-946E1A3AD238}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E0A7A5F7-0843-4D4D-BD96-F645EE46D126} = {A6BA216D-B69D-4F4E-814B-EA0C775B440D}
+		{26903BCA-C71B-4560-AC4D-946E1A3AD238} = {E0A7A5F7-0843-4D4D-BD96-F645EE46D126}
+	EndGlobalSection
+EndGlobal

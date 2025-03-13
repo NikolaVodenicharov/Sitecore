@@ -1,0 +1,38 @@
+﻿---
+ID: "c20e4122-1474-4b5d-8384-8f9973c6eb4d"
+Parent: "360aa780-0660-470a-adfb-07913fc850d7"
+Template: "360aa780-0660-470a-adfb-07913fc850d7"
+Path: /sitecore/templates/Project/AcademyJss/Navigations/Footers/Social Medias Footer Jss/__Standard Values
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250301T110731Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "99f831ab-cf4e-4cb2-800c-405f7020c7a5"
+    - ID: "97445bf8-aa59-4e5c-9d7d-9aa928a17490"
+      Hint: socialsDescription
+      Value: Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.&nbsp;
+    - ID: "9872d4d1-99e5-4fd7-9858-9d01a6b00652"
+      Hint: socialsImage
+      Value: |
+        <image mediaid="{BC32BA4D-A9DF-4C5A-A19D-897EEC0D3CF7}" />
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250301T110811Z

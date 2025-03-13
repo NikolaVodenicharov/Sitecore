@@ -1,0 +1,31 @@
+﻿---
+ID: "a04d02c0-f794-4aac-a8a4-17cf42ec3619"
+Parent: "82ff7d85-f630-4a45-a534-e2729f394d33"
+Template: "82ff7d85-f630-4a45-a534-e2729f394d33"
+Path: /sitecore/templates/Feature/Content/Testimonials/_Testimonial/__Standard Values
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250209T152823Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "aa875da4-c52a-4894-ae77-b8180aa98b78"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250209T152823Z

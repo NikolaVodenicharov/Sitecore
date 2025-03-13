@@ -1,0 +1,49 @@
+# Route definition for the homepage
+id: home-page
+
+# Page-level fields
+fields:
+  pageTitle: Welcome to Sitecore JSS
+
+# Define components in placeholders
+placeholders:
+  jss-main:
+    - componentName: HeroComponent
+      fields:
+        heading: Hero heading text is at this place
+        description: |
+          This is a Sitecore course Lab3 homework Hero component place.
+          Hard work will always pay off no matter how late.
+        ctaLink:
+          href: '#'
+          text: 'View courses'
+          target: '_blank'
+        backgroundImage: '/data/media/img/hero/HeroBlank.jpg'
+
+    - componentName: AboutComponent
+      fields:
+        heading: "Provide Best <span>Education Services</span> For You"
+        description: |
+          Education plays a crucial role in shaping an individual's future.
+          It empowers people with knowledge, skills, and critical thinking.
+        ctaLink:
+          href: "/about"
+          text: "Learn More"
+          target: "_blank"
+        image:
+          src: '/data/media/img/about/AboutBlank.jpg'
+          alt: "Image description"
+          width: 600
+          height: 400
+
+    - componentName: TestimonialComponent
+      fields:
+        heading: "What Our Clients Say"
+        content: |
+          "All Perfect! This theme is the best! Excellent support."
+        author: "John Doe"
+        image:
+          src: '/data/media/img/testimonial/TestimonialBlank.jpg'
+          alt: "Testimonial image"
+          width: 400
+          height: 400

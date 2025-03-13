@@ -1,0 +1,17 @@
+﻿@using SitecoreSoftServe.Foundation.ErrorHandling.Models;
+
+@model ErrorModel
+
+@{ 
+    var alerts = new Dictionary<ErrorModel.MessageType, string>
+    {
+        { ErrorModel.MessageType.Info, "alert-info" },
+        { ErrorModel.MessageType.Warning, "alert-warning" },
+        { ErrorModel.MessageType.Error, "alert-danger" }
+    };
+}
+
+@if(Model != null && Sitecore.Context.PageMode.IsExperienceEditor)
+{
+    <div class="alert @alerts[Model.Type]">@Model.Message</div>
+}

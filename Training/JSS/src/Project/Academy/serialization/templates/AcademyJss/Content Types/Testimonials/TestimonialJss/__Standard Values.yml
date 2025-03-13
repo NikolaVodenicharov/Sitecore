@@ -1,0 +1,23 @@
+﻿---
+ID: "ab88cf23-09be-4a22-8a47-a350a288c01a"
+Parent: "7c9cd3d8-7da9-467d-aeb8-d32db409281c"
+Template: "7c9cd3d8-7da9-467d-aeb8-d32db409281c"
+Path: /sitecore/templates/Project/AcademyJss/Content Types/Testimonials/TestimonialJss/__Standard Values
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250209T153257Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "fe74440c-7122-4ce5-908c-6a1d8154f1df"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250209T153257Z

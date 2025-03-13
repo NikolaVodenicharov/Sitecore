@@ -1,0 +1,37 @@
+﻿---
+ID: "45e4210c-ed48-4453-8c0b-0317384efe09"
+Parent: "d29ebb04-a5c5-4e90-a082-cae53c63b015"
+Template: "d29ebb04-a5c5-4e90-a082-cae53c63b015"
+Path: /sitecore/templates/Project/AcademyMvc/Navigations/Footers/Bottom Footer Mvc/__Standard Values
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250226T091607Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "5e4a874b-486c-4b88-9561-2b561b08de50"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "c8032537-c7fc-4342-98ed-ab1d2f5e540b"
+      Hint: bottomFooterCopyright
+      Value: Copyright © Educat 2022. All right reserved.Created by Edubuzz
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250226T154542Z
+    - ID: "e316a4d0-e2e0-4dfe-b973-d7ef1675b37a"
+      Hint: bottomFooterTerms
+      Value: Privacy Policy , Terms & Conditions

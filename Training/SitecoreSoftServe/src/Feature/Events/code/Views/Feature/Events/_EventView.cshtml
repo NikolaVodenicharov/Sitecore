@@ -1,0 +1,32 @@
+﻿@using SitecoreSoftServe.Feature.Events
+@using SitecoreSoftServe.Feature.Events.Models
+@using Sitecore.Globalization;
+
+@model EventModel
+
+<div class="col-lg-4 col-md-6">
+    <div class="single-event-item event-style-2">
+        <div class="single-event-image">
+            <a href="@Model.LinkUrl">
+                <img src="@Model.ImageUrl" alt="">
+                <span>@Model.StartDate.ToString("dd MMM")</span>
+            </a>
+        </div>
+        <div class="single-event-text">
+            <h3><a href="@Model.LinkUrl">@Model.Title</a></h3>
+            <div class="single-item-comment-view">
+                <span>
+                    <i class="zmdi zmdi-time">
+                        @Model.StartDate.ToString("hh:mm tt") - @Model.EndDate.ToString("hh:mm tt")
+                    </i>
+                </span>
+                <span>
+                    @Model.Location
+                </span>
+            </div>
+            @Html.Raw(Model.Description)
+            @*<a class="button-default" href="@Model.LinkUrl">@Model.LinkName</a>*@
+            <a class="button-default" href="@Model.LinkUrl">@Translate.Text("EventCallToActionButton")</a>
+        </div>
+    </div>
+</div>

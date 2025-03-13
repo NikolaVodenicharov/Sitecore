@@ -1,0 +1,43 @@
+﻿@using SitecoreSoftServe.Feature.News
+@using SitecoreSoftServe.Feature.News.Models
+@using Sitecore.Globalization
+
+@model NewsListModel
+
+@if (Sitecore.Context.PageMode.IsExperienceEditor)
+{
+    <div class="alert alert-info">@Translate.Text("NewsCannotBeEdit")</div>
+}
+
+<div class="latest-area section-padding bg-white">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="section-title-wrapper">
+                    <div class="section-title">
+                        <h3>
+                            @Html.Sitecore().Field(TemplatesNews.NewstList.Title.ToString(), Model.Datasource)
+                        </h3>
+                        <p>
+                            @Html.Sitecore().Field(TemplatesNews.NewstList.Description.ToString(), Model.Datasource)
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        @RenderNews(Model.News)
+    </div>
+</div>
+
+
+
+@helper RenderNews(List<NewsModel> newsList)
+{
+    <div class="row">
+        @foreach (var news in newsList)
+        {
+            @Html.Partial("~/Views/Feature/News/_NewsView.cshtml", news);
+        }
+    </div>
+}

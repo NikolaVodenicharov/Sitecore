@@ -1,0 +1,98 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35312.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Feature", "Feature", "{4EFC2EFD-0582-4CD4-A5D5-CE29F60F5874}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Foundation", "Foundation", "{E79DCCDA-EE05-4B60-87B7-5F84358FC478}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Project", "Project", "{E4B01659-7BE1-4593-B0DF-FA3386E93EC3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Academy", "Academy", "{04DF0F61-EE13-4C75-8F51-D1665AEE84AF}"
+	ProjectSection(SolutionItems) = preProject
+		src\Project\Academy\Academy.module.json = src\Project\Academy\Academy.module.json
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SoftServeJss.Project.Academy.WebJss", "src\Project\Academy\code\SoftServeJss.Project.Academy.WebJss.csproj", "{B6AB6AF4-A049-421D-AA0B-2E3FA2CAD910}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Serialization", "Serialization", "{6710983A-F9B7-41EB-ABDA-E391E0A0E088}"
+	ProjectSection(SolutionItems) = preProject
+		src\Foundation\Serialization\Foundation.Serialization.module.json = src\Foundation\Serialization\Foundation.Serialization.module.json
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SoftServeJss.Foundation.Serialization", "src\Foundation\Serialization\code\SoftServeJss.Foundation.Serialization.csproj", "{02BE9A39-E7EE-45F5-952E-AAF54B5B462D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Content", "Content", "{AA53903C-C4A7-4E33-9A0B-607A208EB155}"
+	ProjectSection(SolutionItems) = preProject
+		src\Feature\Content\Content.module.json = src\Feature\Content\Content.module.json
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Navigations", "Navigations", "{C936A3B1-3B0A-4757-9330-62C73B5B2552}"
+	ProjectSection(SolutionItems) = preProject
+		src\Feature\Navigations\Feature.Navigations.module.json = src\Feature\Navigations\Feature.Navigations.module.json
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SoftServeJss.Feature.NavigationJss", "src\Feature\Navigations\code\SoftServeJss.Feature.NavigationJss.csproj", "{B8611397-4920-4AC1-B07F-5F5E0A6A200A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Events", "Events", "{323EF6CC-B4CF-4149-ADED-4F65061F475F}"
+	ProjectSection(SolutionItems) = preProject
+		src\Feature\Events\Feature.Navigations.module.json = src\Feature\Events\Feature.Navigations.module.json
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SoftServeJss.Feature.JssEvents", "src\Feature\Events\code\SoftServeJss.Feature.JssEvents.csproj", "{99A9520C-114A-44DE-9C32-953CA59FC1E5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "News", "News", "{13052B6E-820C-4E7F-8F8A-E3AC5FB2E77E}"
+	ProjectSection(SolutionItems) = preProject
+		src\Feature\News\Feature.Navigations.module.json = src\Feature\News\Feature.Navigations.module.json
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SoftServeJss.Feature.JssNews", "src\Feature\News\code\SoftServeJss.Feature.JssNews.csproj", "{63EB3554-8FF7-42FE-8FEB-C438329B7BFF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B6AB6AF4-A049-421D-AA0B-2E3FA2CAD910}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6AB6AF4-A049-421D-AA0B-2E3FA2CAD910}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6AB6AF4-A049-421D-AA0B-2E3FA2CAD910}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6AB6AF4-A049-421D-AA0B-2E3FA2CAD910}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02BE9A39-E7EE-45F5-952E-AAF54B5B462D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02BE9A39-E7EE-45F5-952E-AAF54B5B462D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02BE9A39-E7EE-45F5-952E-AAF54B5B462D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02BE9A39-E7EE-45F5-952E-AAF54B5B462D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8611397-4920-4AC1-B07F-5F5E0A6A200A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8611397-4920-4AC1-B07F-5F5E0A6A200A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8611397-4920-4AC1-B07F-5F5E0A6A200A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8611397-4920-4AC1-B07F-5F5E0A6A200A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99A9520C-114A-44DE-9C32-953CA59FC1E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99A9520C-114A-44DE-9C32-953CA59FC1E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99A9520C-114A-44DE-9C32-953CA59FC1E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99A9520C-114A-44DE-9C32-953CA59FC1E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63EB3554-8FF7-42FE-8FEB-C438329B7BFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63EB3554-8FF7-42FE-8FEB-C438329B7BFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63EB3554-8FF7-42FE-8FEB-C438329B7BFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63EB3554-8FF7-42FE-8FEB-C438329B7BFF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{04DF0F61-EE13-4C75-8F51-D1665AEE84AF} = {E4B01659-7BE1-4593-B0DF-FA3386E93EC3}
+		{B6AB6AF4-A049-421D-AA0B-2E3FA2CAD910} = {04DF0F61-EE13-4C75-8F51-D1665AEE84AF}
+		{6710983A-F9B7-41EB-ABDA-E391E0A0E088} = {E79DCCDA-EE05-4B60-87B7-5F84358FC478}
+		{02BE9A39-E7EE-45F5-952E-AAF54B5B462D} = {6710983A-F9B7-41EB-ABDA-E391E0A0E088}
+		{AA53903C-C4A7-4E33-9A0B-607A208EB155} = {4EFC2EFD-0582-4CD4-A5D5-CE29F60F5874}
+		{C936A3B1-3B0A-4757-9330-62C73B5B2552} = {4EFC2EFD-0582-4CD4-A5D5-CE29F60F5874}
+		{B8611397-4920-4AC1-B07F-5F5E0A6A200A} = {C936A3B1-3B0A-4757-9330-62C73B5B2552}
+		{323EF6CC-B4CF-4149-ADED-4F65061F475F} = {4EFC2EFD-0582-4CD4-A5D5-CE29F60F5874}
+		{99A9520C-114A-44DE-9C32-953CA59FC1E5} = {323EF6CC-B4CF-4149-ADED-4F65061F475F}
+		{13052B6E-820C-4E7F-8F8A-E3AC5FB2E77E} = {4EFC2EFD-0582-4CD4-A5D5-CE29F60F5874}
+		{63EB3554-8FF7-42FE-8FEB-C438329B7BFF} = {13052B6E-820C-4E7F-8F8A-E3AC5FB2E77E}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {977BF270-0273-4B94-827B-C0B3377D6FBA}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,20 @@
+﻿{
+    "namespace": "Feature.Content",
+    "references": [ "Foundation.*" ],
+    "items": {
+      "includes": [
+        {
+          "name": "placeholder settings",
+          "path": "/sitecore/layout/Placeholder Settings/Feature/Content Jss"
+        },
+        {
+          "name": "randerings",
+          "path": "/sitecore/layout/Renderings/Feature/Content Jss"
+        },
+        {
+          "name": "templates",
+          "path": "/sitecore/templates/Feature/Content"
+        }
+      ]
+    }
+}

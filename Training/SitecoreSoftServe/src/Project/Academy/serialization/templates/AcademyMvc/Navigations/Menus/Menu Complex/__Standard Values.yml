@@ -1,0 +1,30 @@
+﻿---
+ID: "d8aa71f8-6857-420c-9d7a-e7364086d7a5"
+Parent: "584de112-ee66-429d-a041-99a92537e835"
+Template: "584de112-ee66-429d-a041-99a92537e835"
+Path: /sitecore/templates/Project/AcademyMvc/Navigations/Menus/Menu Complex/__Standard Values
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: control/32x32/menu_b_d.png
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: "{D14865F3-CB72-43AF-9CB1-CAA46116D5F8}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250212T124119Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "4e1f462d-0473-43fa-ab1c-9c9e5becd1e3"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250212T124303Z

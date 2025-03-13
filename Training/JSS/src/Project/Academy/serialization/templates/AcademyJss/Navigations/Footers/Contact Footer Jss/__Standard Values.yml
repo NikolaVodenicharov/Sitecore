@@ -1,0 +1,46 @@
+﻿---
+ID: "656a8fa3-4433-4a77-9663-94a2f64844e9"
+Parent: "bf650c84-a8da-4f7a-9aee-59223979a53d"
+Template: "bf650c84-a8da-4f7a-9aee-59223979a53d"
+Path: /sitecore/templates/Project/AcademyJss/Navigations/Footers/Contact Footer Jss/__Standard Values
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250301T103718Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "540b94a8-8337-4fad-8ae5-ecb8afb294f9"
+      Hint: contactsTitle
+      Value: Get in touch
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "73ba94e1-6ccb-4787-8d3a-f53933e520b6"
+      Hint: contactsEmail
+      Value: info@example.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "207e2303-a20e-4f06-b839-01f8066266bc"
+    - ID: "94af252a-ad01-4ac7-abbe-b007aeefdf5a"
+      Hint: contactsPhoneNumber
+      Value: "555-1234-5678"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "be2c0409-092e-4793-9daf-33ee4e69c6dc"
+      Hint: contactAddress
+      Value: 221B Baker Street
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250301T103755Z
+    - ID: "f1b5e49d-edae-440d-838f-a8ce181eaf48"
+      Hint: contactsWebSite
+      Value: www.educat.com

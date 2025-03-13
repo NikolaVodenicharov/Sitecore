@@ -1,0 +1,37 @@
+﻿---
+ID: "93529bbe-fcfc-48ea-951b-7baca5c64d8c"
+Parent: "fa1ca1c2-b0a9-4906-bb6f-cf26303fb5f7"
+Template: "fa1ca1c2-b0a9-4906-bb6f-cf26303fb5f7"
+Path: /sitecore/templates/Project/AcademyMvc/Navigations/Footers/Top Footer Mvc/__Standard Values
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "14ae97b0-9e20-44c5-b65d-140b76e6a5d2"
+      Hint: topFooterSubTitle
+      Value: TO OUR NEWSLETTER
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250226T091425Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "92d90077-2bfb-44e3-b150-cd6e0e3587f7"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250227T120545Z
+    - ID: "f3653855-8a8a-499b-bf01-5b09d8ed38ee"
+      Hint: topFooterTitle
+      Value: SUBSCRIBE

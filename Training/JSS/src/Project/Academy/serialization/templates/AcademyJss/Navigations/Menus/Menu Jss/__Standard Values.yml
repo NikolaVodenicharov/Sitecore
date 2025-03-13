@@ -1,0 +1,30 @@
+﻿---
+ID: "84e9cca7-cdb8-4c61-a182-a041bfabb611"
+Parent: "0f5b67e2-e59d-4c85-9843-a5fada7d5197"
+Template: "0f5b67e2-e59d-4c85-9843-a5fada7d5197"
+Path: /sitecore/templates/Project/AcademyJss/Navigations/Menus/Menu Jss/__Standard Values
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: control/32x32/popup_menu.png
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: "{1E290734-67D2-4ECE-8254-21FE701BDE34}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250217T072759Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "4045a04a-bcb4-4d73-8c92-cb437b0ef535"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250217T114701Z

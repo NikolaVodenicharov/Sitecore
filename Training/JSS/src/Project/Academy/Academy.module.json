@@ -1,0 +1,20 @@
+﻿{
+    "namespace": "Project.Academy",
+    "references": [ "Foundation.*" ],
+    "items": {
+        "includes": [
+            {
+              "name": "layouts",
+              "path": "/sitecore/layout/Layouts/Project/AcademyJss"
+            },
+            {
+              "name": "placeholders",
+              "path": "/sitecore/layout/Placeholder Settings/Project/AcademyJss"
+            },
+            {
+              "name": "templates",
+              "path": "/sitecore/templates/Project/AcademyJss"
+            }
+        ]
+    }
+}

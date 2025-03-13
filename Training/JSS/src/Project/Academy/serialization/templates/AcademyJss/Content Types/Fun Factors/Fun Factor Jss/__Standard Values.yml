@@ -1,0 +1,37 @@
+﻿---
+ID: "ec1f46d6-dbc1-45f7-bc58-dc95f7a95d28"
+Parent: "eebac0c1-9ff7-4698-b877-2619529a858b"
+Template: "eebac0c1-9ff7-4698-b877-2619529a858b"
+Path: /sitecore/templates/Project/AcademyJss/Content Types/Fun Factors/Fun Factor Jss/__Standard Values
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250218T112127Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "53b900ac-ac7d-4692-abec-abfef5dda5d3"
+      Hint: funFactorNumber
+      Value: 1
+    - ID: "5d2a568e-1a50-4b30-903c-94ff49f32a08"
+      Hint: funFactorTitle
+      Value: Teachers
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "c1d3b515-f0c9-4921-a198-29c09adb0ecb"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250218T112136Z

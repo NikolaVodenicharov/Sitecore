@@ -1,0 +1,31 @@
+﻿---
+ID: "3ff0178f-fb50-479f-805e-e3abd0b0151c"
+Parent: "7650964d-ad39-45e1-8ed6-c323f68d67c4"
+Template: "7650964d-ad39-45e1-8ed6-c323f68d67c4"
+Path: /sitecore/templates/Project/AcademyMvc/Content/Banners/Banner Mvc/__Standard Values
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250201T173826Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "dc473b9a-d13d-442d-b0f9-9c8e74034565"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250212T182242Z

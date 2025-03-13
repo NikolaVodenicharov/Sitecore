@@ -1,0 +1,17 @@
+﻿@using Sitecore.Mvc
+@using Sitecore.Mvc.Presentation
+@using SitecoreSoftServe.Feature.Content.Common;
+
+@model RenderingModel
+
+@if (Model != null && Model.PageItem != null && Model.Item != null)
+{
+    <div class="single-fun-factor mb-30">
+        <h2>
+            <span>@Html.Sitecore().Field(Templates.FunFactor.Number.ToString(), Model.Item)</span>+
+        </h2>
+        <h4>
+            @Html.Sitecore().Field(Templates.FunFactor.Title.ToString(), Model.Item)
+        </h4>
+    </div>
+}

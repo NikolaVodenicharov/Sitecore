@@ -1,0 +1,20 @@
+﻿{
+    "namespace": "Feature.Navigations",
+    "references": [ "Foundation.*" ],
+    "items": {
+      "includes": [
+        {
+          "name": "placeholder settings",
+          "path": "/sitecore/layout/Placeholder Settings/Feature/Navigations Jss"
+        },
+        {
+          "name": "renderings",
+          "path": "/sitecore/layout/Renderings/Feature/Navigations Jss"
+        },
+        {
+          "name": "templates",
+          "path": "/sitecore/templates/Feature/Navigations"
+        }
+      ]
+    }
+}

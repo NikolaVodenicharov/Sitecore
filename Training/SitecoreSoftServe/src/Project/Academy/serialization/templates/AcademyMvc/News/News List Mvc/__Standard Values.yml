@@ -1,0 +1,38 @@
+﻿---
+ID: "b9e9fb64-46a7-4f72-8245-9e0749b4ded4"
+Parent: "0cfba496-9320-4fec-bafe-8e1ca589fc3c"
+Template: "0cfba496-9320-4fec-bafe-8e1ca589fc3c"
+Path: /sitecore/templates/Project/AcademyMvc/News/News List Mvc/__Standard Values
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "05e90fd1-75ba-4323-b2af-fd94ca236347"
+      Hint: newsListDescription
+      Value: |
+        <span style="color: #212529; background-color: #ffffff;">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo</span>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250225T194744Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "70d9208a-b345-462c-a24e-5ab7b5d56619"
+      Hint: newsListTitle
+      Value: Latest News
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "9fe9b840-3e89-495c-8e60-9870038ce72f"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250225T194915Z

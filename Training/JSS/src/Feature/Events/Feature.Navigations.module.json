@@ -1,0 +1,16 @@
+﻿{
+    "namespace": "Feature.Events",
+    "references": [ "Foundation.*" ],
+    "items": {
+      "includes": [
+        {
+          "name": "renderings",
+          "path": "/sitecore/layout/Renderings/Feature/Events Jss"
+        },
+        {
+          "name": "templates",
+          "path": "/sitecore/templates/Feature/Events"
+        }
+      ]
+    }
+}

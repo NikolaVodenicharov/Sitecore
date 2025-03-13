@@ -1,0 +1,21 @@
+﻿{
+    "namespace": "Feature.Banners",
+    "references": [ "Foundation.*" ],
+    "items": {
+        "includes": [
+          {
+            "name": "renderings",
+            "path": "/sitecore/layout/Renderings/Feature/Content Mvc/Banners"
+          },
+          {
+            "name": "templates",
+            "path": "/sitecore/templates/Feature/Content/Banners"
+          },
+          {
+            "name": "buttons",
+            "path": "/sitecore/content/Applications/WebEdit/Custom Experience Buttons/Feature/Banners",
+            "database": "core"
+          }
+        ]
+    }
+}

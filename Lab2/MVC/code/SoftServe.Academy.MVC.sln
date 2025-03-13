@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35527.113
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Feature", "Feature", "{2B1BC4E0-D52D-4D71-AC58-F71B9A4E5EE9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Foundation", "Foundation", "{6B76030C-BBBF-44DC-9F6D-3BF67BE4E4D7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Project", "Project", "{A6BA216D-B69D-4F4E-814B-EA0C775B440D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Academy", "Academy", "{E0A7A5F7-0843-4D4D-BD96-F645EE46D126}"
+	ProjectSection(SolutionItems) = preProject
+		src\Project\Academy\Academy.module.json = src\Project\Academy\Academy.module.json
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SoftServe.Academy.Project.Website", "src\Project\Academy\code\SoftServe.Academy.Project.Website.csproj", "{302F61ED-F674-4273-BCA5-B8FA1A8256DE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Serialization", "Serialization", "{8A653AB6-2F7F-4EC9-A9FC-1B5A455E0CEC}"
+	ProjectSection(SolutionItems) = preProject
+		src\Foundation\Serialization\Foundation.Serialization.module.json = src\Foundation\Serialization\Foundation.Serialization.module.json
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SoftServe.Foundation.Serialization", "src\Foundation\Serialization\code\SoftServe.Foundation.Serialization.csproj", "{F091A4E7-0E1D-4C1F-A2D1-EB0D1C405145}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{302F61ED-F674-4273-BCA5-B8FA1A8256DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{302F61ED-F674-4273-BCA5-B8FA1A8256DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{302F61ED-F674-4273-BCA5-B8FA1A8256DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{302F61ED-F674-4273-BCA5-B8FA1A8256DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F091A4E7-0E1D-4C1F-A2D1-EB0D1C405145}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F091A4E7-0E1D-4C1F-A2D1-EB0D1C405145}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F091A4E7-0E1D-4C1F-A2D1-EB0D1C405145}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F091A4E7-0E1D-4C1F-A2D1-EB0D1C405145}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E0A7A5F7-0843-4D4D-BD96-F645EE46D126} = {A6BA216D-B69D-4F4E-814B-EA0C775B440D}
+		{302F61ED-F674-4273-BCA5-B8FA1A8256DE} = {E0A7A5F7-0843-4D4D-BD96-F645EE46D126}
+		{8A653AB6-2F7F-4EC9-A9FC-1B5A455E0CEC} = {6B76030C-BBBF-44DC-9F6D-3BF67BE4E4D7}
+		{F091A4E7-0E1D-4C1F-A2D1-EB0D1C405145} = {8A653AB6-2F7F-4EC9-A9FC-1B5A455E0CEC}
+	EndGlobalSection
+EndGlobal

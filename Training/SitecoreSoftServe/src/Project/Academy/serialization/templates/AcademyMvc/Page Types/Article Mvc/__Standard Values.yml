@@ -1,0 +1,108 @@
+﻿---
+ID: "26a8dbdd-9b4b-4d2d-bef6-ec13b8d71748"
+Parent: "75815afd-91f1-4f72-b6c4-4d171e64561f"
+Template: "75815afd-91f1-4f72-b6c4-4d171e64561f"
+Path: /sitecore/templates/Project/AcademyMvc/Page Types/Article Mvc/__Standard Values
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: applications/32x32/edit.png
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: |
+    {75815AFD-91F1-4F72-B6C4-4D171E64561F}
+    {2AA42C02-33D9-4944-B208-5C6154599378}
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
+        l="{CEEEED93-1002-469C-A200-4DEA85F9C84E}">
+        <p
+          uid="{23C6BFBC-1A98-4D87-8A59-B4B3735427E0}"
+          key="header"
+          md="{0434D512-8145-4666-B254-FCDE5945BE09}" />
+        <r
+          ds="{89EAA642-CADB-4722-936F-644A684CD33F}"
+          id="{184967C7-9770-455B-8D39-4633D3CF9C71}"
+          par="CSSStyles"
+          ph="/footer-mvc-{00000000-0000-0000-0000-000000000000}-0/main-footer-placeholder-4-{504406B6-820A-4CBD-9BD6-E8971F52689F}-0"
+          uid="{B5CADE78-6193-4895-8A47-A50FDFFD0B64}"
+          ccb="Clear on publish" />
+        <r
+          ds="{43BD08FE-B421-417A-9880-98122A814974}"
+          id="{AF507F7A-5280-4791-85D4-E0385AB3FE6E}"
+          par="CSSStyles"
+          ph="/footer-mvc-{00000000-0000-0000-0000-000000000000}-0/main-footer-placeholder-3-{504406B6-820A-4CBD-9BD6-E8971F52689F}-0"
+          uid="{61725CAC-9CDF-44FD-883D-2A49A82588F6}"
+          ccb="Clear on publish" />
+        <r
+          ds="{CA50F625-C74F-4A12-AD48-C7FA839B8F9C}"
+          id="{ECF49E9D-94D9-494D-BDCA-03E4CDAE951B}"
+          par="CSSStyles"
+          ph="/footer-mvc-{00000000-0000-0000-0000-000000000000}-0/main-footer-placeholder-2-{504406B6-820A-4CBD-9BD6-E8971F52689F}-0"
+          uid="{8BA1D1A8-0AF6-4C55-8984-99E11D3752A6}"
+          ccb="Clear on publish" />
+        <r
+          ds="{E38C4680-0DB0-457A-BC3A-F0C55FAA5504}"
+          id="{0086C947-C45B-4DFF-AA47-13E86A9B07DE}"
+          par="CSSStyles"
+          ph="/footer-mvc-{00000000-0000-0000-0000-000000000000}-0/main-footer-placeholder-1-{504406B6-820A-4CBD-9BD6-E8971F52689F}-0"
+          uid="{658236B6-4B19-4CB9-B757-0E25E38A5FD3}"
+          ccb="Clear on publish" />
+        <r
+          id="{564727B0-2A6B-46E0-BF27-43B78823F15B}"
+          par="CacheClearingBehavior=Clear on publish&amp;CSSStyles"
+          ph="footer-mvc-{00000000-0000-0000-0000-000000000000}-0"
+          uid="{1B16E155-3D5D-4502-AE2A-D7319BF83264}" />
+        <r
+          id="{3EE5E1DB-2B4E-4FA1-8868-AC62018D4451}"
+          par="CacheClearingBehavior=Clear on publish&amp;CSSStyles"
+          ph="footer-mvc-{00000000-0000-0000-0000-000000000000}-0"
+          uid="{504406B6-820A-4CBD-9BD6-E8971F52689F}" />
+        <r
+          ds="{B88731A7-55D0-4011-9930-5C07CD2176F4}"
+          id="{6EB34629-EA81-467E-9663-6D03233F03A7}"
+          par="CSSStyles"
+          ph="footer-mvc-{00000000-0000-0000-0000-000000000000}-0"
+          uid="{165FF435-9F1A-4D05-9E50-6C47F72E8D3C}"
+          ccb="Clear on publish" />
+        <r
+          ds="{5ECE7950-8DB2-45C6-94FC-A61BCB060588}"
+          id="{7C506FF2-48CC-44A5-8C8D-B93FDB59BAA5}"
+          par="CSSStyles"
+          ph="header-mvc-{00000000-0000-0000-0000-000000000000}-0"
+          uid="{EC84F72A-1262-408F-9B30-745C7A0C1F7A}"
+          ccb="Clear on publish" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250201T171044Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "b552f09e-389c-4bd0-8167-a77787a38f8d"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250301T182846Z

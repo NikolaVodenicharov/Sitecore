@@ -1,0 +1,33 @@
+﻿@using SitecoreSoftServe.Feature.Navigations.Common
+@using SitecoreSoftServe.Feature.Navigations.Models.FooterModels
+
+@model MainFooterContactsModel
+
+<div class="single-footer-widget">
+    <h3>
+        @Html.Sitecore().Field(FooterTemplates.Contacts.Title.ToString(), Model.Item)
+    </h3>
+    <a href="">
+        <i class="fa fa-phone"></i>@Html.Sitecore().Field(FooterTemplates.Contacts.PhoneNumber.ToString(), Model.Item)
+    </a>
+    <span>
+        <i class="fa fa-envelope"></i>@Html.Sitecore().Field(FooterTemplates.Contacts.Email.ToString(), Model.Item)
+    </span>
+    <span>
+        <i class="fa fa-globe"></i>@Html.Sitecore().Field(FooterTemplates.Contacts.WebSite.ToString(), Model.Item)
+    </span>
+    <span>
+        <i class="fa fa-map-marker"></i>@Html.Sitecore().Field(FooterTemplates.Contacts.Address.ToString(), Model.Item)
+    </span>
+</div>
+
+@*<div class="col-lg-3 col-md-6">
+    <div class="single-footer-widget">
+        <h3>GET IN TOUCH</h3>
+        <a href="tel:555-555-1212"><i class="fa fa-phone"></i>555-555-1212</a>
+        <span><i class="fa fa-envelope"></i>info@example.com</span>
+        <span><i class="fa fa-globe"></i>www.educat.com</span>
+        <span><i class="fa fa-map-marker"></i>ur address goes here,street.</span>
+    </div>
+</div>*@
+

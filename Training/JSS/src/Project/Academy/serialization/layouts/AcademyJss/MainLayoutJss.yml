@@ -1,0 +1,38 @@
+﻿---
+ID: "bae2ed33-1eb1-4479-9b05-c64ef51c9672"
+Parent: "85f4833f-611d-4ade-aa89-db954a5066d5"
+Template: "35c61e90-47dd-43dd-83a8-d1c4d5119720"
+Path: /sitecore/layout/Layouts/Project/AcademyJss/MainLayoutJss
+SharedFields:
+- ID: "80334869-86dc-4472-aa89-44cf1b2f6c9b"
+  Hint: Placeholders
+  Value: |
+    {CF8192CB-04BB-48D0-AF4B-61DF73A58CDE}
+    {7A63C417-1B56-4A56-B877-07420B4BF8C9}
+    {CAA81D6D-9AB9-4170-8699-D7118A4FFD11}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250203T143802Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "c66e1b3a-77ca-4092-93c7-861b8501b5e7"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250204T163245Z

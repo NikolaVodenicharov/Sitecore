@@ -1,0 +1,113 @@
+﻿@using Sitecore.Mvc
+@using SitecoreSoftServe.Feature.Banners.Models;
+@using SitecoreSoftServe.Feature.Banners;
+@using SitecoreSoftServe.Foundation.ErrorHandling
+
+@model BannerViewModel
+
+@*<div style="background-image: url('@Model.BackgroundImageUrl')">
+    @if (!Model.HideTitle)
+    {
+        <h2>
+            @Html.Sitecore().Field(Templates.Banner.Title.ToString(), Model.Item)
+        </h2>
+    }
+
+    <div>
+        @Html.Sitecore().Field(Templates.Banner.Text.ToString(), Model.Item, new { @class = "editable-text" })
+    </div>
+    <div class="slider-btn">
+        @Html.Sitecore().Field(Templates.Banner.Link.ToString(), Model.Item, new { @class = Model.ButtonStyleClass})
+    </div>
+</div>*@
+
+
+<div class="breadcrumb-banner-area" style="background-image: url('@Model.BackgroundImageUrl')">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="breadcrumb-text">
+                    @if (!Model.HideTitle)
+                    {
+                        <h1 class="text-center">
+                            @Html.Sitecore().Field(Templates.Banner.Title.ToString(), Model.Item)
+                        </h1>
+                    }
+                    
+                    <div class="breadcrumb-bar">
+                        <div class="breadcrumb">
+                            @Html.Sitecore().Field(Templates.Banner.Text.ToString(), Model.Item, new { @class = "editable-text" })
+                        </div>
+                    </div>
+                    <div class="slider-btn">
+                        @Html.Sitecore().Field(Templates.Banner.Link.ToString(), Model.Item, new { @class = Model.ButtonStyleClass })
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+    .slider-btn .button-red {
+        padding: 20px 40px;
+        margin-top: 30px;
+        border-radius: 50px;
+        font-weight: 600;
+        font-size: 16px;
+    }
+
+    .button-red {
+        background: #ff0000 none repeat scroll 0 0;
+        color: #000000;
+        display: inline-block;
+        font-size: 14px;
+        margin: 0;
+        padding: 15px 35px;
+        text-transform: uppercase;
+        font-family: 'Montserrat', sans-serif;
+        -webkit-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out;
+    }
+
+        .button-red:hover {
+            background-color: #00ff06;
+            color: #000000;
+        }
+
+        .button-red.button-large:hover {
+            background: #00ff06 none repeat scroll 0 0;
+            color: #000000;
+        }
+
+    .slider-btn .button-yellow {
+        padding: 20px 40px;
+        margin-top: 30px;
+        border-radius: 50px;
+        font-weight: 600;
+        font-size: 16px;
+    }
+
+    .button-yellow {
+        background: #f5ff00 none repeat scroll 0 0;
+        color: #000000;
+        display: inline-block;
+        font-size: 14px;
+        margin: 0;
+        padding: 15px 35px;
+        text-transform: uppercase;
+        font-family: 'Montserrat', sans-serif;
+        -webkit-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out;
+    }
+
+        .button-yellow:hover {
+            background-color: #00ff06;
+            color: #000000;
+        }
+
+        .button-yellow.button-large:hover {
+            background: #00ff06 none repeat scroll 0 0;
+            color: #000000;
+        }
+</style>

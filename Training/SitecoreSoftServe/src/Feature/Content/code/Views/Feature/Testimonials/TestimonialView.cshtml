@@ -1,0 +1,57 @@
+﻿@using Sitecore.Mvc
+@using SitecoreSoftServe.Feature.Content.Models.Testimonials;
+@using SitecoreSoftServe.Feature.Content.Common;
+
+@model TestimonialViewModel
+
+@*<div class="single-testimonial-area">
+    <div class="testimonial-image">
+        @Html.Sitecore().Field(Templates.Testimonial.AuthorImage.ToString(), Model.Item)
+    </div>
+    <div class="testimonial-content">
+        @Html.Sitecore().Field(Templates.Testimonial.Text.ToString(), Model.Item)
+    </div>
+</div>*@
+
+@*<div class="container py-5" style="background-image: url('@Model.BackgroundImageUrl'); background-size: cover;">
+    <div class="row justify-content-center">
+        <div class="col-lg-8 d-flex align-items-center">
+            <div class="d-flex align-items-center justify-content-center mr-4" style="padding: 2em;">
+                <img src="url('@Model.AuthorImageUrl')" alt="Author Image" class="rounded-circle border border-warning p-1" width="100" height="100">
+            </div>
+            <blockquote class="blockquote text-right mt-3">
+                <p class="mb-3">
+                    @Html.Sitecore().Field(Templates.Testimonial.Text.ToString(), Model.Item, new { @class = "editable-text" })
+                </p>
+            </blockquote>
+        </div>
+    </div>
+</div>*@
+
+
+<div class="testimonial-area" style="background-image: url('@Model.BackgroundImageUrl')">
+    <div class="container">
+        <div class="row">
+            <div class="testimonial-slider owl-carousel owl-loaded owl-drag">
+                <div class="owl-stage-outer">
+                    <div class="owl-stage" style="transform: translate3d(0px, 0px, 0px); transition: all; width: 3510px;">
+                        <div class="owl-item active" style="width: 701.981px;">
+                            <div class="col-12">
+
+                                <div class="single-testimonial-area">
+                                    <div class="testimonial-image">
+                                        @Html.Sitecore().Field(Templates.Testimonial.AuthorImage.ToString(), Model.Item)
+                                    </div>
+                                    <div class="testimonial-content">
+                                        @Html.Sitecore().Field(Templates.Testimonial.Text.ToString(), Model.Item)
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div><div class="owl-nav disabled"><button type="button" role="presentation" class="owl-prev"><span class="fs1" data-icon="4"></span></button><button type="button" role="presentation" class="owl-next"><span class="fs1" data-icon="5"></span></button></div><div class="owl-dots"><button role="button" class="owl-dot active"><span></span></button><button role="button" class="owl-dot"><span></span></button><button role="button" class="owl-dot"><span></span></button><button role="button" class="owl-dot"><span></span></button><button role="button" class="owl-dot"><span></span></button></div>
+            </div>
+        </div>
+    </div>
+</div>
